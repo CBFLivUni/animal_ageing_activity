@@ -47,3 +47,28 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+
+# Ignore Quarto and R project settings  
+/.quarto/  
+/.quarto/**  
+/.quarto/_freeze/  
+/.quarto/cites/  
+/.quarto/xref/  
+.Rproj.user  
+
+# Ignore compiled documents  
+/_book/  
+/_book/**  
+/_site/
+/_site/**
+
+# Ignore all HTML and PDF outputs  
+**/*.html  
+**/*.pdf  
+
+# Ignore all `_files` directories and their contents, regardless of depth  
+**/*_files/  
+**/*_files/**  
+.Rproj.user
+
